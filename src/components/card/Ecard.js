@@ -5,13 +5,13 @@ function Ecard() {
   return (
     <>
       <Container>
-        <Card style={{ width: "360px" }}>
+        <Card style={{ width: "310px" }}>
           <Card.Body style={{ margin: "10px", backgroundColor: "white" }}>
             <Card.Img
               variant="top"
               src="logo512.png"
               style={{
-                width: "300px",
+                width: "280px",
                 height: "auto",
                 backgroundColor: "white",
               }}

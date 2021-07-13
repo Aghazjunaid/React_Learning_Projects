@@ -1,5 +1,6 @@
 import './App.css';
-import Ecard from './card/Ecard';
+import CardListing from './card/CardListing';
+// import Ecard from './card/Ecard';
 // import Signup from './signup/Signup';
 
 // import Parent from './parent/parent';
@@ -15,7 +16,8 @@ import Ecard from './card/Ecard';
 function App() {
   return (
     <div className="">
-      <Ecard/>
+      <CardListing/>
+      {/* <Ecard/> */}
       {/* <Signup/> */}
       {/* <h1>Hello Fame</h1> */}
       {/* <Parent/> */}
