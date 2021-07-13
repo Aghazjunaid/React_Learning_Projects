@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(89, 185, 240)
+}
+  
+.cardHolder{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.card{
+    border: none;
+    height: 350px;
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  /* Use it for shadow effect */  
+}
