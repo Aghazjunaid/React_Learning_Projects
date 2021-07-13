@@ -1,5 +1,6 @@
 import './App.css';
-import Signup from './signup/Signup';
+import Ecard from './card/Ecard';
+// import Signup from './signup/Signup';
 
 // import Parent from './parent/parent';
 // import Card from './card';
@@ -14,7 +15,8 @@ import Signup from './signup/Signup';
 function App() {
   return (
     <div className="">
-      <Signup/>
+      <Ecard/>
+      {/* <Signup/> */}
       {/* <h1>Hello Fame</h1> */}
       {/* <Parent/> */}
       {/* <Card/> */}

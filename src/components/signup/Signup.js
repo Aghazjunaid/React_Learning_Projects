@@ -20,13 +20,13 @@ function Signup() {
           </Card.Title>
           <Form style={{ backgroundColor: "white", margin: "15px" }}>
             <Row style={{ backgroundColor: "white", marginBottom: "10px" }}>
-              <Col style={{ backgroundColor: "white" }}>
+              <Col style={{ backgroundColor: "white" }} sm={6}>
                 <Form.Label style={{ backgroundColor: "white" }}>
                   First Name
                 </Form.Label>
                 <Form.Control />
               </Col>
-              <Col style={{ backgroundColor: "white" }}>
+              <Col style={{ backgroundColor: "white" }} sm={6}>
                 <Form.Label style={{ backgroundColor: "white" }}>
                   Last Name
                 </Form.Label>
@@ -67,13 +67,13 @@ function Signup() {
             </Row>
             <Form.Group>
               <Row style={{ backgroundColor: "white", marginBottom: "10px" }}>
-                <Col style={{ backgroundColor: "white" }}>
+                <Col style={{ backgroundColor: "white" }} sm={6}>
                   <Form.Label style={{ backgroundColor: "white" }}>
                     City
                   </Form.Label>
                   <Form.Control />
                 </Col>
-                <Col style={{ backgroundColor: "white" }}>
+                <Col style={{ backgroundColor: "white" }} sm={6}>
                   <Form.Label style={{ backgroundColor: "white" }}>
                     Country
                   </Form.Label>
@@ -92,13 +92,13 @@ function Signup() {
             </Form.Group>
             <Form.Group>
               <Row style={{ backgroundColor: "white", marginBottom: "10px" }}>
-                <Col style={{ backgroundColor: "white" }}>
+                <Col style={{ backgroundColor: "white" }} sm={6}>
                   <Form.Label style={{ backgroundColor: "white" }}>
                     Create Password
                   </Form.Label>
                   <Form.Control />
                 </Col>
-                <Col style={{ backgroundColor: "white" }}>
+                <Col style={{ backgroundColor: "white" }} sm={6}>
                   <Form.Label style={{ backgroundColor: "white" }}>
                     Repeat Password
                   </Form.Label>
