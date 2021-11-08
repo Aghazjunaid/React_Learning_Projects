@@ -1,5 +1,8 @@
 import './App.css';
-import CardListing from './card/CardListing';
+import Counter from './counter/Counter';
+import Input from './Input/Input';
+// import CardListing from './card/CardListing';
+import Modals from './Modal/Modals';
 // import Ecard from './card/Ecard';
 // import Signup from './signup/Signup';
 
@@ -15,8 +18,11 @@ import CardListing from './card/CardListing';
 
 function App() {
   return (
-    <div className="">
-      <CardListing/>
+    <>
+      <Counter/>
+      {/* <Input/> */}
+      {/* <Modals/> */}
+      {/* <CardListing/> */}
       {/* <Ecard/> */}
       {/* <Signup/> */}
       {/* <h1>Hello Fame</h1> */}
@@ -28,7 +34,7 @@ function App() {
       {/* <NewForm/> */}
       {/* <ForthForm/> */}
       {/* <RegistrationForm/> */}
-    </div>
+    </>
   );
 }
 
