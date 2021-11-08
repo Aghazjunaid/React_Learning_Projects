@@ -7,32 +7,32 @@ function CardListing() {
     <>
     <Container>
     <Row>
-        <Col>
+        <Col sm={4}>
           {" "}
           <Ecard />
         </Col>
-        <Col>
+        <Col sm={4}>
           {" "}
           <Ecard />
         </Col>
-        <Col>
+        <Col sm={4}>
           {" "}
           <Ecard />
           <Ecard />
         </Col>
-        <Col>
+        <Col sm={4}>
           {" "}
           <Ecard />
         </Col>
-        <Col>
+        <Col sm={4}>
           {" "}
           <Ecard />
         </Col>
-        <Col>
+        <Col sm={4}>
           {" "}
           <Ecard />
         </Col>
-        <Col>
+        <Col sm={4}>
           {" "}
           <Ecard />
         </Col>
